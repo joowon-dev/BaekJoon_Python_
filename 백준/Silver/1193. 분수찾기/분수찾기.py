@@ -1,0 +1,9 @@
+N=int(input())
+i=1
+while(N-i>0):
+  N=N-i
+  i=i+1
+if(i%2):
+  print("{}/{}".format(i-N+1,N))
+else:
+  print("{}/{}".format(N,i-N+1))
